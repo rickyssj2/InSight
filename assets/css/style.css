@@ -225,6 +225,10 @@ html {
     border-color: var(--accent);
 }
 
+.hidden {
+    display: none;
+}
+
 /*-----------------------------------*\ 
   #Extra style for dark theme
 \*-----------------------------------*/
@@ -950,6 +954,10 @@ footer .wrapper {
         display: grid;
         grid-template-columns: 5fr 2fr;
         gap: 60px;
+    }
+
+    .hidden {
+        display: none;
     }
 
     /**
